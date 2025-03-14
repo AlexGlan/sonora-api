@@ -1,0 +1,2 @@
+# Collection of API requests for testing and interacting with the backend during development.  
+# Works with the REST Client extension in VS Code.
