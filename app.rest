@@ -1,2 +1,5 @@
 # Collection of API requests for testing and interacting with the backend during development.  
 # Works with the REST Client extension in VS Code.
+
+# Get all audio tracks
+GET http://localhost:3003/api/audio
