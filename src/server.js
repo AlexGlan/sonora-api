@@ -1,8 +1,11 @@
 import express from 'express';
+import cors from 'cors';
 import { connectDB } from './config/db.js';
 import audioRoutes from './routes/audio.route.js';
 
 const app = express();
+
+app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 const env = process.env.NODE_ENV?.toLowerCase();
